@@ -1,0 +1,155 @@
+// Data Types and Operators, Thaedren Moxley, v0.0
+using System;
+
+class DataTypesOperators { 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// READING USER INPUT FROM THE CONSOLE / TERMINAL 
+Console.Writeline("What is your player name? Type it and press ENTER.\n);
+
+// CREATE A VARIABLE TO STORE THE DATA.
+string playerName = Console.Readline();
+// Console.Readline() ONLY RETURNS string data types. 
+Console.WriteLine("What is your age?  Type it and press ENTER. \n");
+string age = Console.Readline();
+Console.WriteLine(age + age);
+// Adding string data types together is called CONCATENATION    
+
+// PRINT THE VARIABLE TO THE SCREEN
+// Console.WriteLine("Your player name is" + playerName);
+
+// INPUTTING NUMBERS FROM THE CONSOLE.
+Console.WriteLine("How many chicken nuggies can you eat in 5 minutes? Enster an integer value and press enter)
+int numNuggies = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(numNuggies + numNuggies); 
